@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --sidebar-width: 280px;
+  --header-sub-height: 30px;
+  --header-main-height: 50px;
+}
+
+body {
+  @apply bg-dark-300 font-sans text-base font-normal text-gray;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-corner ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(51, 53, 65, 1);
+  border-radius: 8px;
+}
