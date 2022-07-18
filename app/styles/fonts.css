@@ -4,7 +4,7 @@
   src: local('Flama'), url('/fonts/Flama-Regular.woff2') format('woff2');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Flama';
   font-weight: 500;
   src: url('Flama Medium', url('/fonts/Flama-Medium.woff2')format('woff2'));
@@ -21,4 +21,4 @@
   font-family: 'Flama';
   font-weight: 700;
   src: local('Flama Bold'), url('/fonts/Flama-Bold.woff2') format('woff2');
-}
+} */

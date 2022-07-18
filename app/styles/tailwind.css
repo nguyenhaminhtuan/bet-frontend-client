@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply bg-dark-300 font-sans text-base font-normal text-gray;
+  @apply bg-dark-300 font-sans text-gray;
 }
 
 ::-webkit-scrollbar {

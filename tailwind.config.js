@@ -3,7 +3,7 @@ module.exports = {
   content: ['./app/**/*.{ts,tsx,jsx,js}'],
   theme: {
     fontFamily: {
-      sans: ['Flama', 'sans-serif'],
+      sans: ['sans-serif'],
     },
     extend: {
       colors: {
@@ -15,11 +15,22 @@ module.exports = {
           500: '#16181f',
         },
         gray: 'rgba(146, 147, 166, 1)',
-        primary: 'rgba(233, 177, 11, 1)',
+        primary: {
+          gold: {
+            light: 'rgba(245, 196, 50, 1)',
+            dark: 'rgba(204, 108, 49, 1)',
+            DEFAULT: 'rgba(233, 177, 11, 1)',
+          },
+          green: {
+            light: 'rgba(0, 227, 89, 1)',
+            dark: 'rgba(0, 150, 59, 1)',
+            DEFAULT: 'rgba(2, 191, 77, 1)',
+          },
+        },
       },
       fontSize: {
-        sm: '.8125rem',
-        base: '.9375rem',
+        xxs: ['0.65rem', '0.8rem'],
+        xs: '0.78rem',
       },
     },
   },
